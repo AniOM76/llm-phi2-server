@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: phi2-llm-server
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash startup.sh
