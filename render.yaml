@@ -7,4 +7,4 @@ services:
     startCommand: bash startup.sh
     envVars: 
       - key: PYTHONPATH
-      value: app
+      value: .
