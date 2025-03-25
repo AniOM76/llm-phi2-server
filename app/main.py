@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request
-from app.model import generate
+from model import generate
 
 app = FastAPI()
 
